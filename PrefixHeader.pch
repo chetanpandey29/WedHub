@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  WedHub
+//
+//  Created by Flexi_Mac_4 on 20/02/17.
+//  Copyright © 2017 Flexi_Mac2. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import "SBJson.h"
+#import "AppDelegate.h"
+#import <CoreData/CoreData.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Quickblox/Quickblox.h>
+#import <QuickbloxWebRTC/QuickbloxWebRTC.h>
+#import "QBUpdateUserParameters+CustomData.h"
+#import "QBChatMessage+TextEncoding.h"
+
+#import "QMDefinitions.h"
+#import "QMProtocols.h"
+#import "Macro.h"
+
+#import "QMServices.h"
+#import "EXTScope.h"
+#endif
